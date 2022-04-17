@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className={` py-5 backdrop-blur-sm bg-[rgba(255,255,255,0.8)]  fixed top-0 left-0 w-full shadow-sm`}>
         
-        <nav className='w-10/12 lg:w-1/2 m-auto flex justify-between'>
+        <nav className='w-10/12 lg:w-1/2 2xl:w-2/5 m-auto flex justify-between'>
             <div onClick={()=>history.push('/')} className='grid self-center cursor-pointer'>May</div>
             <ul className='hidden list-none lg:flex flex-row gap-8'>
                 

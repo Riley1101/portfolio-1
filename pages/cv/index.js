@@ -2,14 +2,15 @@ import React from 'react'
 import Navbar from '../../components/navbar'
 import Alignment from '../../components/alignments'
 import '@fontsource/inter'
+import Footer from '../../components/footer'
 function ResumePage() {
   return (
     <div>
         <div className=" bg-white">
-      <div className="w-10/12 lg:w-1/2 m-auto">
+      <div className="w-10/12 lg:w-1/2 2xl:w-2/5 m-auto">
         <Navbar/>
         {/* info: hero section */}
-        <div className='pb-5 pt-24'>
+        <div className='pb-5 pt-24 2xl:pt-32'>
             <h3 className=" text-3xl">Work Experiments</h3>
             <div className='mt-5 grid gap-5 '>
                 <Alignment year={'2019-2020'} place={'Myanmar'}
@@ -21,7 +22,7 @@ function ResumePage() {
 
             </div>
         </div>
-        <div className=" pt-5 pb-12">
+        <div className=" pt-5 2xl:pt-8 pb-12">
             <h2 className=" text-3xl">Team Projects in Work</h2>
             <div className="mt-5 grid gap-3">
              <Alignment place={'THtwin Innovation Lab'} year={'2019'} pj={'https://shaniit.org/'} ttl={`Shan Institute of Technology `}>
@@ -39,6 +40,7 @@ function ResumePage() {
 
             </div>
         </div>
+        <Footer/>
       </div>
     </div>
         
