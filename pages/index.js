@@ -5,6 +5,7 @@ import Navbar from "../components/navbar";
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import Footer from "../components/footer";
 export default function Home() {
 
   return (
