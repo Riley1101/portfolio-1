@@ -12,7 +12,7 @@ function AboutPage() {
          <h6 className='text-lg font-medium'>About me</h6>
          <div className=' grid lg:grid-cols-[40%,60%] gap-3 mt-5'>
             <div className=' w-full h-[260px] relative'>
-                <Image alt='my image' src={'/me.JPG'} className='rounded-xl object-cover object-[0%,30%]'  layout='fill'/>
+                <Image alt='my image' src={'/me.JPG'} className='rounded-xl absolute -z-[1] object-cover object-[0%,30%]'  layout='fill'/>
             </div>
             <article className='grid gap-3 text-[15px]'>
                 <p>Hey there, I am MayThanHsu, a passionate developer from Myanmar who loves to learn more and more.</p>

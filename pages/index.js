@@ -4,6 +4,7 @@ import Card from "../components/card";
 import Navbar from "../components/navbar";
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 export default function Home() {
 
   return (
@@ -19,7 +20,9 @@ export default function Home() {
           </svg></div>
             3 years working experiment</div>
           <p className="mt-5">Hi there, I&apos;m <h1 className="inline">MayThanHsu</h1>, a frontend developer who&apos;s really swift at learning and loves to code.</p>
-          <Button>See My Works</Button>
+          <Button >
+            <Link href={'/cv'}>See My CV</Link>
+          </Button>
         
         </div>
         {/* info:projects */}
